@@ -1,0 +1,27 @@
+h1 {
+    color: blueviolet;
+
+}
+
+li {
+
+    color: rgb( 240,100,100);
+}
+
+h2 {
+
+    color: green;
+    border: 5px rgb( 240,100,100)
+
+}
+
+h4 {
+    background: whitesmoke;
+}
+
+body{
+    background: whitesmoke;
+    background-repeat:no-repeat ;
+    background-size: cover;
+
+}

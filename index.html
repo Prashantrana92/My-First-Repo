@@ -1,0 +1,44 @@
+
+<h1>Till.Payments</h1>
+
+<script> src= "index.js" </script>
+<form id="payment_form" method="POST" action="someScript.php" onsubmit="interceptSubmit(); return false;">
+    <input type="hidden" name="transaction_token" id="transaction_token" />
+    <div>
+        <label for="first_name">First name</label>
+        <input type="text" id="first_name" placeholder= "prashant" name="first_name" />
+    </div>
+    <div>
+        <label for="last_name">Last name</label>
+        <input type="text" id="last_name" placeholder= "rana" name="last_name" />
+    </div>
+
+    <div>
+        <label for="card_holder">Card holder</label>
+        <input type="text" id="card_holder" placeholder= "prashant rana" name="card_holder" />
+    </div>
+    <div>
+        <label for="number">Card number</label>
+        <input type="number" placeholder= "41111111111111"></div>
+    </div>
+    <div>
+        <label for="cvv">CVV</label>
+        <input type="cvv" placeholder ="123"></div>
+    </div>
+
+    <div>
+        <label for="exp_month">Month</label>
+        <input type="text" id="exp_month" name="exp_month" />
+    </div>
+    <div>
+        <label for="exp_year">Year</label>
+        <input type="text" id="exp_year" name="exp_year" />
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" />
+    </div>
+    <div>
+        <input type="submit" value="Submit" />
+    </div>
+</form>
